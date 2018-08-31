@@ -1,6 +1,6 @@
-package com.example.springstudy.controller;
+package com.example.springstudy.demo1.controller;
 
-        import com.example.springstudy.annotation.ClientIP;
+        import com.example.springstudy.demo1.annotation.ClientIP;
         import org.springframework.web.bind.annotation.GetMapping;
         import org.springframework.web.bind.annotation.RestController;
 

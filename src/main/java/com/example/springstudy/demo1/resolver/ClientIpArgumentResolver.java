@@ -1,6 +1,6 @@
-package com.example.springstudy.resolver;
+package com.example.springstudy.demo1.resolver;
 
-import com.example.springstudy.annotation.ClientIP;
+import com.example.springstudy.demo1.annotation.ClientIP;
 import org.springframework.core.MethodParameter;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.support.WebDataBinderFactory;

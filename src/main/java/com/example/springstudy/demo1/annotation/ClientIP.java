@@ -1,4 +1,4 @@
-package com.example.springstudy.annotation;
+package com.example.springstudy.demo1.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
