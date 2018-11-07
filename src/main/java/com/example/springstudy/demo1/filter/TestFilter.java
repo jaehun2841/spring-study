@@ -22,9 +22,9 @@ public class TestFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-        System.out.println("start testFilter1");
+        //System.out.println("start testFilter1");
         filterChain.doFilter(servletRequest, servletResponse);
-        System.out.println("finish testFilter1");
+        //System.out.println("finish testFilter1");
     }
 
     @Override

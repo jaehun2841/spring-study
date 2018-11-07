@@ -1,6 +1,7 @@
 package com.example.springstudy.demo1.resolver;
 
 import com.example.springstudy.demo1.annotation.ClientIP;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.MethodParameter;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.support.WebDataBinderFactory;
@@ -11,7 +12,7 @@ import org.springframework.web.method.support.ModelAndViewContainer;
 import javax.servlet.http.HttpServletRequest;
 
 public class ClientIpArgumentResolver implements HandlerMethodArgumentResolver {
-
+    @Autowired
     /**
      * resolveArgument를 실행 할 수 있는 method인지 판별
      * @param methodParameter

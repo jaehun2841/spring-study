@@ -21,9 +21,9 @@ public class TestFilter2 implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-        System.out.println("start testFilter2");
+        //System.out.println("start testFilter2");
         filterChain.doFilter(servletRequest, servletResponse);
-        System.out.println("finish testFilter2");
+        //System.out.println("finish testFilter2");
     }
 
     @Override
