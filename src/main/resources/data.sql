@@ -1,0 +1,1 @@
+INSERT INTO test(id, name, description) values (1, NULL, NULL);
