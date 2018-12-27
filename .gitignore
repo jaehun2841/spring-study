@@ -23,3 +23,5 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+h2database.mv.db
+h2database.trace.db
